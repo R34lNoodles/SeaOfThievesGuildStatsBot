@@ -2,7 +2,6 @@ const { SlashCommandBuilder, EmbedBuilder } = require("discord.js");
 const puppeteer = require("puppeteer");
 const moment = require("moment");
 
-// Define previousGuildLevel outside the client.getGuildInfo function
 let previousGuildLevel = null;
 
 module.exports = (client) => {
