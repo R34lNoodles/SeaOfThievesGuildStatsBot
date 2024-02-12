@@ -1,0 +1,18 @@
+{
+  "name": "guildmanagement",
+  "version": "1.0.0",
+  "description": "a web scraper bot for sea of thieves guilds",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "noodlesfps_",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/rest": "^2.2.0",
+    "discord-api-types": "^0.37.69",
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.3",
+    "puppeteer": "^22.0.0"
+  }
+}
