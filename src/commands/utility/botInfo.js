@@ -10,13 +10,8 @@ module.exports = {
       .setTitle("Bot Information")
       .setURL("https://github.com/LoneNoodle")
       .setDescription(
-        "What is this bot?\n This bot is an open source discord bot developed by noodles that scrapes the Sea of Thieves website for guild information since they do not have an API for the guild."
+        "This is a bot that scrapes the Sea of thieves websitr for guild info and puts it in a readable format."
       )
-      .addFields({
-        name: "Features",
-        value: "•  Guild Levelup Notifications\n  `More features coming soon`",
-        inline: true,
-      })
       .setTimestamp()
       .setFooter({
         text: "Created By Noodles",
